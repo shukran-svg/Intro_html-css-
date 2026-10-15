@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>HTML FLEX</title>
+         <style>
+                  .main-1 {
+                           border: 2px solid rgb(14, 147, 224);
+                           padding: 10px;
+                           display: flex;
+                           justify-content: space-between;
+                  }
+
+                  .smaller {
+                           height: 100px;
+                           border: 2px solid rgb(8, 69, 105);
+
+                  }
+/* setup username and email */
+/* git config --global user.name "Sue" */
+/* git config --global user.email "sue@example.com"*/
+/* git init */
+/* git add . */
+                  .x {
+                           width: 65%;
+                  }
+
+                  .y {
+                           width: 35%;
+                  }
+
+                  .container {
+                           display: flex;
+
+                           justify-content: space-between;
+                  }
+
+                  .smaller {
+                           width: 23%;
+                           border: 2px solid rgb(8, 69, 105);
+
+                  }
+         </style>
+</head>
+
+<body>
+         <div class="main-1">
+                  <div class="smaller x"></div>
+                  <div class="smaller y"></div>
+                  <br>
+         </div>
+         <div class="container">
+                  <div class="smaller">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio est voluptate laudantium aperiam fugit ex.</p>
+                  </div>
+                  <div class="smaller">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Autem alias amet tempore perspiciatis dolor fugiat quidem blanditiis magni ab
+                                    nesciunt.</p>
+
+                  </div>
+                  <div class="smaller">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio est voluptate laudantium aperiam fugit ex.</p>
+                  </div>
+                  <div class="smaller">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio est voluptate laudantium aperiam fugit ex.</p>
+                  </div>
+
+                  <!-- .container>.s*4>p>lorem -->
+                  <!-- (h1>) -->
+         </div>
+         </div>
+
+
+</body>
+
+</html>
