@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Navigation Bar</title>
+         <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Chicle&family=Climate+Crisis:YEAR@1979&family=Coiny&family=Fruktur:ital@0;1&display=swap');
+
+                  * {
+                           padding: 0;
+                           margin: 0;
+                  }
+
+                  body {
+                           font-family: "Boogaloo", sans-serif;
+                           font-weight: 400;
+                           font-size: 1.2rem;
+                           color: rgb(10, 10, 10);
+                           margin: 0;
+                  }
+
+                  nav {
+                           display: flex;
+                           justify-content: center;
+                           /* background-color: rgb(247, 35, 176); */
+                           border-bottom: 1px solid rgb(247, 35, 176);
+
+                  }
+
+                  .content {
+                           /* background-color: hwb(322 93% 3%); */
+
+                           width: 70%;
+                           display: flex;
+                           justify-content: space-between;
+                           align-items: center;
+
+                  }
+
+                  .logo img {
+                           width: 60px;
+                           height: 60px;
+                           padding: 5px;
+
+
+                  }
+
+                  .content ul {
+                           display: flex;
+                           /* remove bullets */
+                           list-style-type: none;
+
+
+                  }
+
+                  .content ul li {
+                           /*  margin btn element and its neighbour */
+                           margin-left: 16px;
+                           margin-right: 16px;
+                  }
+
+                  .content ul li a {
+                           text-decoration: none;
+                           color: rgb(253, 5, 200);
+                           padding: 5px 10px;
+                           text-transform: uppercase;
+
+                  }
+
+                  .content ul li a:hover {
+                           background-color: rgb(169, 37, 173);
+                           transition: 0.3s;
+                           /* text-decoration: underline; */
+                           border-bottom: 2px solid rgb(253, 5, 200);
+
+                  }
+         </style>
+</head>
+
+<body>
+         <!-- sematic tags -->
+         <!--< header> ,</header> -->
+         <!-- <footer> </footer>   -->
+
+         <nav>
+                  <div class="content">
+                           <div class="logo">
+                                    <img src="/IMAGES/nail-polish.png" alt="Logo">
+                           </div>
+                           <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">product</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Gate help</a></li>
+                                    <li><a href="#">Team</a></li>
+
+
+
+
+
+
+                           </ul>
+
+                  </div>
+
+
+         </nav>
+</body>
+
+</html>
