@@ -1,0 +1,44 @@
+.row {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+.col {
+        border: 1px;
+        width: 24%;
+        color: darkorange;
+}
+
+p {
+        text-align: center;
+}
+
+/* nedia quries */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+        p {
+                color: #ff0000;
+        }
+
+        .col {
+                width: 48%;
+                margin-bottom: 12px;
+        }
+}
+
+@media screen and (max-width: 767px) {
+        .col {
+                width: 100%;
+                margin-bottom: 12px;
+
+        }
+
+        p {
+                color: #5900ff;
+        }
+
+        /* python django */
+        /* css framework 95% done for you */
+        /* js react */
+}
