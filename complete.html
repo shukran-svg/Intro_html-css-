@@ -7,17 +7,23 @@
          <title>Home Goods ~ Best in Town</title>
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
-         <style>
-                  @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Chicle&family=Climate+Crisis:YEAR@1979&family=Coiny&family=Fruktur:ital@0;1&display=swap');
-         </style>
-         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="stylesheet" href="CSS/complete.css">;
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
 </head>
 
 <body>
+         <!-- https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js -->
+         <!-- https://github.com/walteranyika/intro_html_css/blob/master/full-page.html -->
+         <!-- https://cssgenerator.org/box-shadow-css-generator.html -->
+         <!-- https://animate.style/ -->
+         <!--  -->
 
          <nav class="navbar navbar-expand-sm bg-white navbar-white ">
                   <div class="container">
-                           <a class="navbar-brand fw-bold" href="#"><i class="bi bi-cart4"></i> Home Goods</a>
+                           <a class="navbar-brand fw-bold" href="#">
+                                    <i class="bi bi-cart4"></i> Home <span id="goods">Goods</span></a>
                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapsibleNavbar">
                                     <span class="navbar-toggler-icon"></span>
@@ -25,7 +31,7 @@
                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                     <ul class="navbar-nav mx-auto">
                                              <li class="nav-item">
-                                                      <a class="nav-link" href="#">Home</a>
+                                                      <a class="nav-link active" href="#">Home</a>
                                              </li>
                                              <li class="nav-item">
                                                       <a class="nav-link" href="#">Products</a>
@@ -47,24 +53,23 @@
 
                            <div class="row">
 
-                                    <div class="col-md-5 py-5">
-                                             <p class="text uppercase mb-2 fw-bold">Quality Home Essentials</p>
+                                    <div class="col-md-5 py-5 animate__animated animate__bounce">
+                                             <p class=" small-heading text uppercase mb-2 fw-bold">Quality Home
+                                                      Essentials</p>
                                              <h1 class="display-4 fw-bold">Make Your Home Look beautiful</h1>
-                                             <P class="text-secondary lead">Lorem ipsum dolor sit amet consectetur
+                                             <P class="text-white lead">Lorem ipsum dolor sit amet consectetur
                                                       adipisicing elit. Voluptate aut
                                                       obcaecati
                                                       accusamus dignissimos eaque totam atque illo modi nostrum sequi!
                                              </P>
-                                             <a href="#" class="btn btn-primary btn-lg">Shop Now <i
+                                             <a href="#" class="btn btn-primary btn-lg slide-fwd-center">Shop Now <i
                                                                class="bi bi-arrow-90deg-right ms -3"></i></a>
 
 
 
+
                                     </div>
-                                    <div class="col-md-7">
-                                             <img src="IMAGES/litoon-dev-jEr29j1pmms-unsplash.jpg"
-                                                      class="img-fluid hero img py-5" alt="...">
-                                    </div>
+
                            </div>
 
 
@@ -76,28 +81,35 @@
          </header>
          <!-- main section -->
          <main>
-                  <section class="Products-section border">
-                           <div class="container">
+                  <section class="Products-section border-none">
+                           <div class="container ">
 
-                                    <div class="section-heading py-5">
+                                    <div class="section-heading ">
 
-                                             <h2 class="h4 fw-bold">FeaturedProducts</h2>
-                                             <p class="text-secondary">Lorem ipsum dolor sit amet consectetur
+                                             <h2
+                                                      class="h4 fw-bold text-white text-uppercase text-decoration-underline text-center ">
+                                                      Featured Products</h2>
+                                             <p class="text-dark text-center">Lorem ipsum dolor sit amet consectetur
                                                       adipisicing elit. Voluptate aut obcaecati
                                                       accusamus dignissimos eaque totam atque illo modi nostrum sequi!
 
                                              </p>
                                              <div class="row g-4">
-                                                      <div class="col-md-3">
+                                                      <div class="col-sm-6 col-md-3 animate__animated animate__bounce">
 
                                                                <div class="card">
-                                                                        <img src="IMAGES/portraits-of-modern-dairy-aCx1C742vqg-unsplash (1).jpg"
+                                                                        <img src="IMAGES\spacejoy-9M66C_w_ToM-unsplash.jpg"
                                                                                  class="card-img-top" alt="...">
                                                                         <div class="card-body">
-                                                                                 <h5 class="card-title">Portraits of
+                                                                                 <h5
+                                                                                          class="card-title text-dark text-center fw-bold">
+                                                                                          Portraits of
                                                                                           Modern Dairy</h5>
-                                                                                 <p class="price">KES 10,000 /=</p>
-                                                                                 <p class="card-text text-secondary">
+                                                                                 <p
+                                                                                          class="price text-white text-center fw-bold">
+                                                                                          KES 10,000 /=</p>
+                                                                                 <p
+                                                                                          class="card-text text-white text-center">
                                                                                           Lorem ipsum dolor sit amet
                                                                                           consectetur adipisicing elit.
                                                                                           Voluptate
@@ -111,16 +123,21 @@
                                                                         </div>
                                                                </div>
                                                       </div>
-                                                      <div class="col-md-3">
+                                                      <div class="col-sm-6 col-md-3">
 
                                                                <div class="card">
-                                                                        <img src="IMAGES/portraits-of-modern-dairy-aCx1C742vqg-unsplash (1).jpg"
+                                                                        <img src="IMAGES\margo-evardson-6opeXy387bE-unsplash.jpg"
                                                                                  class="card-img-top" alt="...">
                                                                         <div class="card-body">
-                                                                                 <h5 class="card-title">Portraits of
+                                                                                 <h5
+                                                                                          class="card-title text-dark text-center fw-bold">
+                                                                                          Portraits of
                                                                                           Modern Dairy</h5>
-                                                                                 <p class="price">KES 10,000 /=</p>
-                                                                                 <p class="card-text text-secondary">
+                                                                                 <p
+                                                                                          class=" price text-white text-center fw-bold">
+                                                                                          KES 10,000 /=</p>
+                                                                                 <p
+                                                                                          class="card-text text-white text-center">
                                                                                           Lorem ipsum dolor sit amet
                                                                                           consectetur adipisicing elit.
                                                                                           Voluptate
@@ -134,16 +151,21 @@
                                                                         </div>
                                                                </div>
                                                       </div>
-                                                      <div class="col-md-3">
+                                                      <div class="col-sm-6 col-md-3">
 
                                                                <div class="card">
-                                                                        <img src="IMAGES/portraits-of-modern-dairy-aCx1C742vqg-unsplash (1).jpg"
+                                                                        <img src="IMAGES\clay-banks-7y0DGa1vlXQ-unsplash.jpg"
                                                                                  class="card-img-top" alt="...">
                                                                         <div class="card-body">
-                                                                                 <h5 class="card-title">Portraits of
+                                                                                 <h5
+                                                                                          class="card-title text-dark text-center fw-bold">
+                                                                                          Portraits of
                                                                                           Modern Dairy</h5>
-                                                                                 <p class="price">KES 10,000 /=</p>
-                                                                                 <p class="card-text text-secondary">
+                                                                                 <p
+                                                                                          class="price text-white text-center fw-bold">
+                                                                                          KES 10,000 /=</p>
+                                                                                 <p
+                                                                                          class="card-text text-white text-center">
                                                                                           Lorem ipsum dolor sit amet
                                                                                           consectetur adipisicing elit.
                                                                                           Voluptate
@@ -157,16 +179,22 @@
                                                                         </div>
                                                                </div>
                                                       </div>
-                                                      <div class="col-md-3">
+                                                      <div class="col-sm-6 col-md-3 animate__animated animate__bounce">
 
                                                                <div class="card">
-                                                                        <img src="IMAGES/portraits-of-modern-dairy-aCx1C742vqg-unsplash (1).jpg"
+                                                                        <img src="IMAGES\clay-banks-nTqR3B3dp-Q-unsplash.jpg"
                                                                                  class="card-img-top" alt="...">
                                                                         <div class="card-body">
-                                                                                 <h5 class="card-title">Portraits of
+                                                                                 <h5
+                                                                                          class="card-title text-dark text-center fw-bold">
+                                                                                          Portraits of
                                                                                           Modern Dairy</h5>
-                                                                                 <p class="price">KES 10,000 /=</p>
-                                                                                 <p class="card-text text-secondary">
+                                                                                 <p
+                                                                                          class="price text-dark text-center fw-bold">
+                                                                                          KES 10,000 /=</p>
+                                                                                 <p
+                                                                                          class="card-text text-white text-center">
+
                                                                                           Lorem ipsum dolor sit amet
                                                                                           consectetur adipisicing elit.
                                                                                           Voluptate
@@ -194,16 +222,19 @@
 
 
 
-                  </section>
-                  <section class="About section py-5 border">
-                           <div class="container text-center">
-                                    <i class="bi bi-house-door"></i>
-                                    <h2 class="h4 fw-bold">About HomeGoods</h2>
-                                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                             Voluptate aut obcaecati accusamus
-                                             dignissimos eaque totam atque illo modi nostrum sequi!</p>
-                           </div>
-                  </section>
+                           </seion>
+                           <section class="About section py-5 border-none">
+                                    <div class="container text-center">
+                                             <i class="bi bi-house-door"></i>
+                                             <h2
+                                                      class="h4 fw-bold text-white text-uppercase text-center text-decoration-underline">
+                                                      About HomeGoods</h2>
+                                             <p class="text-dark text-center">Lorem ipsum dolor sit amet consectetur
+                                                      adipisicing elit.
+                                                      Voluptate aut obcaecati accusamus
+                                                      dignissimos eaque totam atque illo modi nostrum sequi!</p>
+                                    </div>
+                           </section>
 
 
 
@@ -213,22 +244,22 @@
          </main>
          <!-- footer -->
          <footer>
-                  <div class="container pt-4">
+                  <div class="container-fluid border-none  bg-dark text-white">
 
                            <div class="row g-4">
-                                    <div class="col-md-4">
-                                             <h2 class="h5 fw-bold">Home Goods</h2>
+                                    <div class="col-md-4  margin-left-auto">
+                                             <h2 class="h5 fw-bold ">Home Goods</h2>
                                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, eveniet.
                                              </p>
                                     </div>
                                     <div class="col-md-4">
-                                             <h3 class="h6 fw-bold">Quick Links</h3>
-                                             <ul class="list-unstyled small"></ul>
+                                             <h3 class="h6 fw-bold text-center">Quick Links</h3>
+                                             <ul class="list-unstyled small text-center">
 
-                                             <li><a href="#">Home</a></li>
-                                             <li><a href="#">About Us</a></li>
-                                             <li><a href="#">Contact Us</a></li>
-                                             <li><a href="#">Team</a></li>
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Contact Us</a></li>
+                                                      <li><a href="#">Team</a></li>
                                              </ul>
 
 
@@ -236,9 +267,9 @@
 
 
                                     </div>
-                                    <div class="col -md-4">
+                                    <div class="col -md-4 ">
                                              <h3 class="h6 fw-bold">Contact us</h3>
-                                             <p class="small"><i class="bi bi-pin-map me-2"></i> Eldoret, Kenya</p>
+                                             <p class="small "><i class="bi bi-pin-map me-2"></i> Eldoret, Kenya</p>
                                              <p class="small"><i class="bi bi-telephone-inbound me-2"></i> +254
                                                       123456789</p>
                                              <p class="small"><i class="bi bi-envelope-at me-2"></i> @infohomegoods.com
@@ -252,13 +283,14 @@
 
 
                            </div>
-                           <div class=""></div>
+                  </div>
 
 
 
 
          </footer>
 
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
